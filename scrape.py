@@ -27,7 +27,7 @@ time.sleep(3)
 button = driver.find_element_by_xpath('//*[@id="js-basic-search-form"]/div/label/span/span[1]')
 button.click()
 
-time.sleep(5)
+time.sleep(4)
 
 elems = driver.find_elements_by_xpath("//a[@href]")
 for elem in elems:
